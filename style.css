@@ -7,15 +7,28 @@ body {
   background-color: #f9f9f9;
 }
 
+/* Header */
 header {
   text-align: center;
   margin-bottom: 40px;
 }
 
+/* Profilbilde */
+.profilbilde {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Overskrifter */
 h1, h2 {
   color: #333;
 }
 
+/* Seksjoner */
 section {
   background: white;
   padding: 20px;
@@ -23,6 +36,12 @@ section {
   border-radius: 8px;
 }
 
+/* Lenker */
 a {
   color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
