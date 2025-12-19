@@ -1,47 +1,100 @@
+/* Generelt */
 body {
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
-  line-height: 1.6;
-  background-color: #f9f9f9;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f2f4f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-/* Header */
+/* Header / topp */
 header {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
   text-align: center;
-  margin-bottom: 40px;
+  padding: 60px 20px 50px;
 }
 
 /* Profilbilde */
 .profilbilde {
-  width: 200px;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
   border-radius: 50%;
-  display: block;
-  margin: 20px auto;
-  border: 2px solid #333;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border: 4px solid white;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* Overskrifter */
-h1, h2 {
-  color: #333;
+/* Overskrift */
+header h1 {
+  margin: 10px 0 5px;
+  font-size: 2.4rem;
+}
+
+/* Undertittel */
+header p {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
 }
 
 /* Seksjoner */
 section {
   background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Seksjonstitler */
+section h2 {
+  margin-top: 0;
+  color: #1e3c72;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 8px;
+}
+
+/* Lister */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 12px;
 }
 
 /* Lenker */
 a {
-  color: #0066cc;
+  color: #2a5298;
   text-decoration: none;
+  font-weight: 500;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Kontakt */
+section p {
+  margin: 8px 0;
+}
+
+/* Mobilvennlig */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .profilbilde {
+    width: 140px;
+    height: 140px;
+  }
+
+  section {
+    margin: 20px 10px;
+    padding: 20px;
+  }
 }
