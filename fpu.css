@@ -1,1 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  color: #1a1a1a;
+}
 
+.fpu-header {
+  background-color: #0057b8;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.fpu-logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.card-text {
+  flex: 1;
+}
+
+.card-image {
+  width: 220px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #0057b8;
+  margin-top: 0;
+}
+
+/* Mobiltilpasning */
+@media (max-width: 700px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-image {
+    width: 100%;
+    max-width: 300px;
+  }
+}
