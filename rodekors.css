@@ -1,1 +1,86 @@
+/* Generelt */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #c8102e; /* Røde Kors-rød */
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header p {
+  margin: 0;
+  opacity: 0.95;
+}
+
+/* Seksjoner */
+section {
+  background: white;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Tekst + bilde */
+.info-rad {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.info-tekst {
+  flex: 1;
+}
+
+.info-bilde {
+  flex: 1;
+  text-align: center;
+}
+
+.info-bilde img {
+  max-width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Overskrifter */
+h2 {
+  color: #c8102e;
+  margin-top: 0;
+}
+
+/* Lenker */
+a {
+  color: #c8102e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mobil */
+@media (max-width: 750px) {
+  .info-rad {
+    flex-direction: column;
+  }
+
+  section {
+    margin: 20px 12px;
+    padding: 25px;
+  }
+}
 
