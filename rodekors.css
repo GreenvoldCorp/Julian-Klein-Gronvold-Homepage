@@ -71,6 +71,17 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.les-mer {
+  font-size: 0.95rem;
+  color: #0057b8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.les-mer:hover {
+  text-decoration: underline;
+}
+
 
 /* Mobil */
 @media (max-width: 750px) {
@@ -81,6 +92,6 @@ a:hover {
   section {
     margin: 20px 12px;
     padding: 25px;
-  }
+ }
 }
 
