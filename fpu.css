@@ -143,3 +143,22 @@ body {
     margin: 0 auto;
   }
 }
+
+.debatt-liste {
+  margin-top: 15px;
+  padding-left: 18px;
+}
+
+.debatt-liste li {
+  margin-bottom: 8px;
+}
+
+.debatt-liste a {
+  color: #0057b8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.debatt-liste a:hover {
+  text-decoration: underline;
+}
