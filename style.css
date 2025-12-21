@@ -1,162 +1,127 @@
-/* Generelt */
+/* ===== Grunnoppsett ===== */
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  background-color: #f2f4f7;
   margin: 0;
-  padding: 0;
-  color: #333;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background-color: #f5f7f7;
+  color: #1a1a1a;
 }
 
-/* Header / topp */
-header {
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
-  color: white;
-  text-align: center;
-  padding: 60px 20px 50px;
-}
-
-.hero-image {
-  width: 260px;
-  height: 340px;
-  object-fit: cover;
-  object-position: center top;
-  border-radius: 14px;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
-}
+/* ===== HERO ===== */
 .hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   max-width: 1100px;
-  margin: 60px auto 40px;
+  margin: 70px auto 60px;
   padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .hero-text h1 {
-  font-size: 2.6rem;
-  margin-bottom: 10px;
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  color: #1f4f4a;
 }
 
-.hero-subtitle {
+.hero-roles {
   font-size: 1.1rem;
-  color: #555;
-  max-width: 420px;
+  line-height: 1.6;
+  color: #444;
 }
 
-
-/* Overskrift */
-header h1 {
-  margin: 10px 0 5px;
-  font-size: 2.4rem;
+.hero-image {
+  width: 280px;
+  height: 360px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 16px;
+  box-shadow: 0 14px 35px rgba(0,0,0,0.2);
 }
 
-/* Undertittel */
-header p {
-  margin: 0;
-  font-size: 1.1rem;
-  opacity: 0.9;
+/* ===== OM MEG ===== */
+.about {
+  max-width: 700px;
+  margin: 0 auto 70px;
+  padding: 0 20px;
+  text-align: center;
 }
 
-/* Seksjoner */
-section {
+.about h2 {
+  color: #1f4f4a;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* ===== ROLLER ===== */
+.roles {
+  max-width: 900px;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.role-card {
   background: white;
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 28px;
+  border-radius: 14px;
+  border-left: 6px solid #1f4f4a;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
-/* Seksjonstitler */
-section h2 {
+.role-card h3 {
   margin-top: 0;
-  color: #1e3c72;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 8px;
+  color: #1f4f4a;
 }
 
-/* Lister */
-ul {
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 12px;
-}
-
-/* Lenker */
-a {
-  color: #2a5298;
+.role-card a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #3fa59a;
+  font-weight: 600;
   text-decoration: none;
-  font-weight: 500;
 }
 
-a:hover {
+.role-card a:hover {
   text-decoration: underline;
 }
 
-/* Kontakt */
-section p {
-  margin: 8px 0;
-}
-
-/* Mobilvennlig */
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 2rem;
-  }
-
-  .profilbilde {
-    width: 140px;
-    height: 140px;
-  }
-
-  section {
-    margin: 20px 10px;
-    padding: 20px;
-  }
-}
-
-/* Footer */
+/* ===== FOOTER ===== */
 .site-footer {
+  background-color: #1f4f4a;
+  color: white;
+  padding: 30px 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 16px 32px;
-  background-color: #f8f8f8;
-  font-family: Arial, sans-serif;
-  max-width: 800px;
-  margin: 30px auto 30px auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  flex-wrap: wrap;
 }
 
-.footer-left {
-  text-align: left;
-}
-
-.footer-right a {
-  margin-left: 20px;
+.site-footer a {
+  color: #cdeae6;
   text-decoration: none;
-  color: #2a5298;
-  font-weight: bold;
 }
 
-.footer-right a:hover {
+.site-footer a:hover {
   text-decoration: underline;
 }
 
-/* Mobilvennlig footer */
-@media (max-width: 600px) {
-  .site-footer {
+.social a {
+  margin-left: 15px;
+}
+
+/* ===== MOBIL ===== */
+@media (max-width: 800px) {
+  .hero {
     flex-direction: column;
     text-align: center;
-    gap: 10px;
   }
 
-  .footer-right a {
-    margin-left: 10px;
+  .social a {
+    margin-left: 0;
+    margin-right: 15px;
   }
 }
+
 
 
