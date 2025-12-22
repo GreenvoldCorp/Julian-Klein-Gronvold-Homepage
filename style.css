@@ -176,7 +176,7 @@ body {
   right: -15px;
   width: 160px;
   height: 160px;
-  background: url("Images/svg/rodekors.svg") no-repeat center / contain;
+  background: url("Images/svg/rodekors.jpg") no-repeat center / contain;
   opacity: 0.06;
   pointer-events: none;
 
@@ -224,6 +224,7 @@ body {
 }
 
 }
+
 
 
 
