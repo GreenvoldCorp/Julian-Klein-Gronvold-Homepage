@@ -138,8 +138,8 @@ body {
 }
 
 .social-icons img {
-  width: 26px;
-  height: 26px;
+  width: 50px;
+  height: 50px;
   filter: invert(5%);
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
@@ -162,6 +162,7 @@ body {
     margin-right: 15px;
   }
 }
+
 
 
 
