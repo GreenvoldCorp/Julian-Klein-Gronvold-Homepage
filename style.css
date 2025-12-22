@@ -130,6 +130,26 @@ body {
   margin-left: 15px;
 }
 
+/* ===== SVG sosiale ikoner ===== */
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.social-icons img {
+  width: 26px;
+  height: 26px;
+  filter: invert(90%);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  opacity: 0.85;
+}
+
+
 /* ===== MOBIL ===== */
 @media (max-width: 800px) {
   .hero {
@@ -142,6 +162,7 @@ body {
     margin-right: 15px;
   }
 }
+
 
 
 
