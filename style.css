@@ -161,7 +161,40 @@ body {
     margin-left: 0;
     margin-right: 15px;
   }
+  /* ===== Tematiske bakgrunnslogoer ===== */
+.role-card {
+  position: relative;
+  overflow: hidden;
 }
+
+/* FpU-logo */
+.fpu-card::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 160px;
+  height: 160px;
+  background: url("Images/svg/fpulogo.svg") no-repeat center / contain;
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+/* Røde Kors-logo */
+.rk-card::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 160px;
+  height: 160px;
+  background: url("Images/svg/rodekors.svg") no-repeat center / contain;
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+}
+
 
 
 
