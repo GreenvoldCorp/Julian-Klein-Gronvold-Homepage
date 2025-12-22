@@ -175,7 +175,7 @@ body {
   right: -15px;
   width: 160px;
   height: 160px;
-  background: url("Images/svg/fpulogo.svg") no-repeat center / contain;
+  background: url("Images/svg/fpu.svg") no-repeat center / contain;
   opacity: 0.06;
   pointer-events: none;
 }
@@ -194,6 +194,7 @@ body {
 }
 
 }
+
 
 
 
