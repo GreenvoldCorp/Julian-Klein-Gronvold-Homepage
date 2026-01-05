@@ -222,8 +222,60 @@ body {
   opacity: 0.06;
   pointer-events: none;
 }
+/* ===== Tematiske kort med bakgrunn og logo ===== */
+
+/* FpU-kortet */
+.fpu-card {
+  background: linear-gradient(
+    135deg,
+    rgba(230, 240, 250, 0.8),
+    rgba(245, 250, 255, 0.8)
+  );
+  border-left: 6px solid #0057b8;
+  position: relative;
+  overflow: hidden;
+}
+
+.fpu-card::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  width: 180px;
+  height: 180px;
+  background: url("Images/svg/fpulogo.svg") no-repeat center / contain;
+  opacity: 0.08;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Røde Kors-kortet */
+.rk-card {
+  background: linear-gradient(
+    135deg,
+    rgba(251, 232, 232, 0.8),
+    rgba(255, 245, 245, 0.8)
+  );
+  border-left: 6px solid #c8102e;
+  position: relative;
+  overflow: hidden;
+}
+
+.rk-card::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  width: 180px;
+  height: 180px;
+  background: url("Images/svg/rodekors.svg") no-repeat center / contain;
+  opacity: 0.08;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
 
 }
+
 
 
 
