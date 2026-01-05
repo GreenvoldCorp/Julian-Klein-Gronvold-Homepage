@@ -19,7 +19,7 @@ body {
 
 /* Grønn panel */
 .hero-panel {
-  background-color: #1f4f4a;
+  background-color: #1f2933;
   color: white;
   padding: 40px 45px;
   border-radius: 18px;
@@ -167,6 +167,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
