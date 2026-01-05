@@ -243,7 +243,7 @@ body {
   right: -20px;
   width: 180px;
   height: 180px;
-  background: url("Images/svg/fpulogo.svg") no-repeat center / contain;
+  background: url("Images/svg/fpu.jpg") no-repeat center / contain;
   opacity: 0.08;
   transform: translateY(-50%);
   pointer-events: none;
@@ -268,13 +268,14 @@ body {
   right: -20px;
   width: 180px;
   height: 180px;
-  background: url("Images/svg/rodekors.svg") no-repeat center / contain;
+  background: url("Images/svg/rodekors.jpg") no-repeat center / contain;
   opacity: 0.08;
   transform: translateY(-50%);
   pointer-events: none;
 }
 
 }
+
 
 
 
