@@ -175,6 +175,7 @@ body {
 .site-footer a:hover {
   background-color: #2d3a46;
   transform: translateY(-2px);
+  
 /* ===== MOBIL ===== */
 @media (max-width: 800px) {
   .hero {
@@ -182,6 +183,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
