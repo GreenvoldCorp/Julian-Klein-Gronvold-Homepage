@@ -54,24 +54,7 @@ body {
   box-shadow: 0 14px 35px rgba(0,0,0,0.2);
 }
 
-/* ===== OM MEG ===== */
-.about {
-  max-width: 700px;
-  margin: 10px auto 30px;
-  padding: 0 20px;
-  text-align: center;
-}
 
-.about h2 {
-  color: #1f4f4a;
-  font-size: 1.6rem;
-}
-
-.about p {
-  font-size: 0.95rem;
-  line-height: 1.5;
-  margin: 6px auto;
-}
 
 /* ===== ROLLER ===== */
 .roles {
@@ -194,6 +177,7 @@ body {
     height: 56px;
   }
 }
+
 
 
 
