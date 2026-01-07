@@ -150,8 +150,8 @@ body {
 }
 
 .social-icons img {
-  width: 46px;
-  height: 46px;
+  width: 45px;
+  height: 65px;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
@@ -182,6 +182,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
