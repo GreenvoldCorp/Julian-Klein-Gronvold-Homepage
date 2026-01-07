@@ -1,4 +1,4 @@
-/* ===== Grunnoppsett ===== */
+/* ===== Grunnoppsett ===== */  
 body {
   margin: 0;
   font-family: "Segoe UI", system-ui, sans-serif;
@@ -150,8 +150,8 @@ body {
 }
 
 .social-icons img {
-  width: 45px;
-  height: 65px;
+  width: 80px;
+  height: 80px;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
@@ -182,6 +182,7 @@ body {
     text-align: center;
   }
 }
+
 
 
 
