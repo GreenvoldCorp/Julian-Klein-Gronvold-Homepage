@@ -207,8 +207,13 @@ body {
     transform: translateX(-100%);
   }
 }
-
-
+.ticker-label {
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0 48px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
 /* ===== MOBIL ===== */
 @media (max-width: 800px) {
   .hero {
@@ -226,6 +231,7 @@ body {
     height: 56px;
   }
 }
+
 
 
 
