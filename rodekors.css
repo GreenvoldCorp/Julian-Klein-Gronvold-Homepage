@@ -81,6 +81,29 @@ a:hover {
 .les-mer:hover {
   text-decoration: underline;
 }
+.back-home {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.back-home-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.back-home-btn.rk-btn {
+  background-color: #c8102e;   /* Røde Kors-rød */
+  color: #ffffff;
+}
+
+.back-home-btn.rk-btn:hover {
+  background-color: #a10826;   /* Litt mørkere ved hover */
+  transform: translateY(-2px);
+}
 
 
 /* Mobil */
