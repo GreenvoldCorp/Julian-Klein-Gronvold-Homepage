@@ -16,7 +16,15 @@ body {
   justify-content: space-between;
   gap: 30px;
 }
+.fpu-role {
+  color: #0057b8;  /* FpU-blå */
+  font-weight: 600; /* valgfritt, for å få den til å poppe litt */
+}
 
+.rk-role {
+  color: #c8102e;  /* Røde Kors-rød */
+  font-weight: 600;
+}
 .hero-panel {
   background-color: #1f2933;
   color: white;
@@ -177,6 +185,7 @@ body {
     height: 56px;
   }
 }
+
 
 
 
