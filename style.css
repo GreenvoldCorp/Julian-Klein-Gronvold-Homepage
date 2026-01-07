@@ -183,7 +183,7 @@ body {
 .debatt-ticker-content {
   display: inline-block;
   white-space: nowrap;
-  animation: tickerScroll 20s linear infinite;
+  animation: tickerScroll 35s linear infinite;
 }
 
 .debatt-ticker-content a {
@@ -231,6 +231,7 @@ body {
     height: 56px;
   }
 }
+
 
 
 
