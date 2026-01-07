@@ -159,8 +159,8 @@ body {
 }
 
 .social-icons img {
-  width: auto;
-  height: auto;
+  width: 80px;
+  height: 80px;
   max-width: 80px;  /* Større logo, men ikke helt vill */
   max-height: 80px;
   transition: transform 0.2s ease, opacity 0.2s ease;
@@ -188,6 +188,7 @@ body {
     height: 56px;
   }
 }
+
 
 
 
