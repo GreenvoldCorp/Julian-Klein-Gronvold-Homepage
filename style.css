@@ -167,44 +167,47 @@ body {
   transform: scale(1.25);
   opacity: 0.9;
 }
-/* Debatt ticker */
+/* ====================== Debatt ticker ====================== */
 .debatt-ticker {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  overflow: hidden;
+  height: 40px;
   background-color: #1f2933;
-  padding: 10px 0;
+  overflow: hidden;
   z-index: 9999;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  border-bottom: 3px solid #0057b8;
 }
 
 .debatt-ticker-content {
   display: inline-block;
   white-space: nowrap;
-  animation: scrollTicker 40s linear infinite;
+  animation: tickerScroll 20s linear infinite;
 }
 
 .debatt-ticker-content a {
   color: #d9f2ee;
   font-weight: 600;
-  margin: 0 40px;
+  margin: 0 48px;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 .debatt-ticker-content a:hover {
   text-decoration: underline;
 }
 
-/* Animasjon: flytt fra høyre til venstre kontinuerlig */
-@keyframes scrollTicker {
+/* CSS-animasjon */
+@keyframes tickerScroll {
   0% {
     transform: translateX(100%);
   }
   100% {
     transform: translateX(-100%);
+  }
 }
+
 
 /* ===== MOBIL ===== */
 @media (max-width: 800px) {
@@ -223,6 +226,7 @@ body {
     height: 56px;
   }
 }
+
 
 
 
